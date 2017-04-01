@@ -1,3 +1,44 @@
-<h1>
-  {{title}}
-</h1>
+<h1>{{title}}</h1>
+<md-tab-group>
+  <md-tab label="Form Controls">
+    <md-icon>home</md-icon>
+    <md-slide-toggle>Slide me!</md-slide-toggle>
+    <md-slider></md-slider>
+  </md-tab>
+  <md-tab label="Buttons, Indicators & Icons">
+    <div>
+      <button md-button>Flat button</button>
+      <button md-raised-button>Raised button</button>
+      <button md-fab><md-icon>check</md-icon></button>
+      <button md-mini-fab><md-icon>check</md-icon></button>
+    </div>
+    <div>
+      <a md-button routerLink=".">Flat button</a>
+      <a md-raised-button routerLink=".">Raised button</a>
+      <a md-fab routerLink="."><md-icon>check</md-icon></a>
+      <a md-mini-fab routerLink="."><md-icon>check</md-icon></a>
+    </div>
+    <div>
+      <md-chip-list>
+        <md-chip>One fish</md-chip>
+        <md-chip>Two fish</md-chip>
+        <md-chip color="primary" selected="true">Primary fish</md-chip>
+        <md-chip color="accent" selected="true">Accent fish</md-chip>
+      </md-chip-list>
+    </div>
+    <div>
+      <md-spinner></md-spinner>
+      <md-progress-bar mode="indeterminate"></md-progress-bar>
+    </div>
+  </md-tab>
+  <md-tab label="Tab 3">
+  </md-tab>
+  <md-tab label="Tab 4">
+    <div>
+    </div>
+  </md-tab>
+  <md-tab label="Tab 5">
+    <div>
+    </div>
+  </md-tab>
+</md-tab-group>
